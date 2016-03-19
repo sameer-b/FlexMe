@@ -50,6 +50,15 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <artifactId>cpabe</artifactId>
+            <groupId>cpabe</groupId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/lib/cpabe.jar</systemPath>
+        </dependency>
+        
     </dependencies>
 
     <properties>
