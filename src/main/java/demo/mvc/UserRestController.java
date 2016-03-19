@@ -3,7 +3,7 @@ package demo.mvc;
 import java.util.List;
 
 import demo.model.User;
-import demo.repositoryo.UserDao;
+import demo.repository.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
