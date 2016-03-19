@@ -2,4 +2,4 @@ target
 *.iml
 *.ipr
 *.iws
-./node_modules
+"node_modules/\nbower_components/"
