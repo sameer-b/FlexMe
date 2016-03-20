@@ -18,6 +18,8 @@
     "mongodb": "*",
     "express-handlebars" : "*",
     "body-parser": "*",
-    "cookie-parser": "*"
+    "cookie-parser": "*",
+    "express-fileupload": "*",
+    "multer": "*"
   }
 }
