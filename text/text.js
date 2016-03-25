@@ -26,7 +26,7 @@ exports.nls = function() {
                 headline: "Good job! Set a goal for this emergency fund?",
             },
             done: {
-                title: "Flex Me! - Create emergency fund!",
+                title: "Flex Me! - Emergency fund created!",
                 headline: "",
                 summary1: "You can claim this money in case of an emergency",
                 summary2: "If your savings cross this limit we will initiate a direct deposit and you can enjoy a little extra cash!"
