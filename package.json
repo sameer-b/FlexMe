@@ -14,12 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
-    "monk": "*",
-    "mongodb": "*",
     "express-handlebars" : "*",
     "body-parser": "*",
-    "cookie-parser": "*",
-    "express-fileupload": "*",
-    "multer": "*"
   }
 }
