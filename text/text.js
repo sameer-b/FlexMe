@@ -5,7 +5,7 @@ exports.nls = function() {
             home: {
                 title: "Flex Me! - Welcome To Flex Me!",
                 greeting: "Welcome to Flex Me!",
-                short_description_1: "Scale down your plans based on your usages and save more today!",
+                short_description_1: "Downgrade your plans based on your usages and save more today!",
                 short_description_2: "You're probably not using what you're paying for. View your usage patterns and see where you can save today!",
                 short_description_3: "Don't worry you can always Flex incase your usage changes!"
             },
@@ -29,7 +29,7 @@ exports.nls = function() {
                 title: "Flex Me! - Create emergency fund!",
                 headline: "",
                 summary1: "You can claim this money in case of an emergency",
-                summary2: "If your savings cross this limit we will initiate a direct deposit and you can enojy a little extra cash!"
+                summary2: "If your savings cross this limit we will initiate a direct deposit and you can enjoy a little extra cash!"
             }
         },
         providers: [
