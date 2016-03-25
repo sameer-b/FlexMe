@@ -1,0 +1,20 @@
+.navbar a {
+    color: white !important;
+}
+
+.list-group-item input {
+    margin-right: 10px !important;
+}
+
+.current {
+    background-color: #f2dede;
+}
+
+.usage {
+    background-color: #e3ff33;
+}
+
+.icon {
+    width: 10%;
+    height: 10%;
+}
