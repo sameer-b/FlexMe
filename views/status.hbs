@@ -12,13 +12,12 @@
   <!-- Stylesheet -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/estimator.css">
-
+  <link rel="stylesheet" href="styles/overrides.css"
   <!-- Javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://dwum8argi892z.cloudfront.net/js/cdc_lib_min_latest.js"></script>
-
   <title>
-      {{nls.pages.save.title}}
+      {{nls.pages.status.title}}
   </title>
 
 </head>
@@ -43,15 +42,19 @@
           <div class="row">
               <!-- Heading Section -->
               <div class="main-headline col-md-12">
-                  <h1 class=" text-center">{{nls.pages.save.headline}}</h1>
-                  <form method="POST" action="/done">
-                      <label for="goal">$ {{data.goal}} </label>
-                      <input name="goal" type="text" class="form-group" placeholder="enter goal"/>
+                  <h1 class=" text-center">{{nls.pages.status.headline}}</h1>
+                  <h1>
+                      <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="{{data.goal}}" style="width: {{data.progress}}%;">
+                              $90
+                          </div>
+                      </div>
+                      <span class="progressBarText">Goal: ${{data.goal}}</span>
+                  </h1>
               </div><!-- .row.main-headline -->
           </div>
 
       </section>
-      <button class="btn btn-responsive btn-blue beacon-this">Create emergency fund</button>
   </form>
 
   </div><!-- .container -->

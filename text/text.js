@@ -30,6 +30,10 @@ exports.nls = function() {
                 headline: "",
                 summary1: "You can claim this money in case of an emergency",
                 summary2: "If your savings cross this limit we will initiate a direct deposit and you can enjoy a little extra cash!"
+            },
+            status: {
+                title: "Flex Me! - Status",
+                headline: "You're doing great! Keep it up!"
             }
         },
         providers: [

@@ -18,3 +18,8 @@
     width: 10%;
     height: 10%;
 }
+
+.progressBarText {
+    font-size: 15px !important;
+    float: right;
+}

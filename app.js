@@ -28,6 +28,16 @@ app.get('/usage', function(req, res) {
     });
 });
 
+app.post('/status', function(req, res) {
+    res.render('status', {
+        nls: nls,
+        data: {
+            goal: req.body.goal,
+            progress: (90/req.body.goal) * 100
+        }
+    });
+});
+
 app.get('/save', function(req, res) {
     res.render('save', {
         nls: nls
@@ -38,7 +48,7 @@ app.post('/done', function(req, res) {
     res.render('done', {
         nls: nls,
         data : {
-            fund: req.body.goal
+            goal: req.body.goal
         }
     });
 });
