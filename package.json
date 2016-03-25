@@ -15,6 +15,6 @@
   "dependencies": {
     "express": "^4.13.4",
     "express-handlebars" : "*",
-    "body-parser": "*",
+    "body-parser": "*"
   }
 }
